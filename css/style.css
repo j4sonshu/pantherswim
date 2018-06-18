@@ -1,0 +1,194 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-size: 80%;
+	background: url(../images/stripe.png) repeat;
+}
+p {
+	font-family: Helvetica, Sans-Serif;
+	font-size: 18px;
+	margin-bottom: 12px;
+}
+li {
+	font-family: Helvetica, Sans-Serif;
+	font-size: 14px;
+	margin-bottom: 10px;
+	color: #FFF;
+	padding-bottom: 2px;
+}
+.licontent {
+	font-family: Helvetica, Sans-Serif;
+	font-size: 14px;
+	margin-bottom: 10px;
+	color: #0000;
+}
+h1 {
+	font-family: Helvetica, Sans-Serif;
+	font-size: 36px;
+	color: white;
+	height: 0px;
+}
+h2 {
+	font-family: Helvetica, Sans-Serif;
+	font-size: 28px;
+	color: darkblue;
+	margin-bottom: 10px;
+}
+ul {
+	font-family: Helvetica, Sans-Serif;
+	padding-left: 10px;
+	list-style: none;
+	padding-right: 3px;
+	text-align: left;
+}
+.ulcontent {
+	font-family: Helvetica, Sans-Serif;
+	margin-left: 25px;
+	list-style: square;
+}
+img {
+	border: none;
+}
+#page-wrap {
+	background: white;
+	min-width: 780px;
+	max-width: 1260px;
+	margin: 10px auto;
+}
+#page-wrap #inside {
+	margin: 10px 10px 0px 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#main-content {
+	background-color: #FFF;
+	padding-left: 230px;
+	padding-top: 20px;
+}
+#header {
+	background-color: #000;
+	text-align: center;
+	padding-top: 2px;
+	
+	color: white;
+	font-size: 64px;
+}
+#left-sidebar {
+	width: 150px;
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-style: solid;
+	background-color: #00C;
+}
+#footer {
+	background: #000;
+	text-align: center;
+	padding-top: 20px;
+	color: white;
+}
+a:link {
+	text-decoration: underline;
+	color: #FFF;
+}
+.register a:link {
+	color: #000;
+}
+a:visited {
+	text-decoration: underline;
+	color: #FFF;
+}
+a:hover {
+	text-decoration: underline;
+	color: #F00;
+}
+a:active {
+	text-decoration: underline;
+	color: #FFF;
+}
+table.roster, .roster td, .roster th {
+	font-family: Helvetica, Sans-Serif;
+	border: 1px solid black;
+	text-align: center;
+	padding: 4px;
+	outline: none;
+	color: black;
+	font-size: 12px;
+}
+table.roster {
+	width: 300px;
+	border: none;
+}
+.roster caption {
+	font-family: Helvetica, Sans-Serif;
+	font-size: 24px;
+	color: darkblue;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+table.legacy, .legacy td, .legacy th {
+	font-family: Helvetica, Sans-Serif;
+	border: 1px solid #5A0002;
+	text-align: center;
+	padding: 1px 2px 1px 2px;
+	border-collapse: collapse;
+	color: white;
+}
+table.legacy {
+	outline: solid red;
+	outline-offset: -1px;
+	outline-width: thick;
+	
+}
+.legacy th, .legacy td {
+	width: auto;
+	height: auto;
+}
+.legacy th {
+	font-size: 22px;
+}
+.legacy td {
+	text-align: left;
+	font-size: 12px;
+}
+.eventtable {
+	background-color: #8D8080;
+}
+table.meetcalendar, .meetcalendar td, .meetcalendar th {
+	font-family: Helvetica, Sans-Serif;
+	border: 1px solid black;
+	border-collapse: collapse;
+	
+}
+.meetcalendar td, .meetcalendar th {
+	border: 1px solid black;
+	padding: 0px 3px 0px 4px;
+	font-size: 14px;
+}
+div.img {
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 180px;
+}
+div.img:hover {
+	border: 1px solid #777;
+}
+div.img img {
+	width: 100%;
+	height: auto;
+}
+#map {
+   width: 95%;
+   height: 400px;
+   background-color: grey;
+}
+.cycle-slideshow {
+	width: 100%px;
+	display: block;
+	position: relative;
+	margin: 20px auto;
+	overflow: hidden;
+}
